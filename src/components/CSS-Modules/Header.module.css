@@ -1,0 +1,152 @@
+/* ************** CSS for Header Container **************/
+
+header {
+  display: flex;
+  background-color: #ffffff;
+  height: 83px;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #b6b1b1;
+}
+
+/* ************** CSS for Myntra Logo **************/
+
+.logo_container {
+  margin-left: 4%;
+}
+
+.myntra_home {
+  margin: 4px 0 0;
+  background: url("../../images/icons.png");
+  background-size: 1404px 105px;
+  width: 53px;
+  height: 36px;
+  background-position: -462px 0;
+  alt: "Myntra Home";
+}
+
+.action_bar {
+  margin-right: 4%;
+}
+
+/* ************** CSS for Navbar **************/
+.nav_bar {
+  display: flex;
+  min-width: 500px;
+  justify-content: space-evenly;
+}
+
+.nav_bar a {
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: #282c3f;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 28px 0;
+  border-bottom: 5px solid #ffffff;
+}
+
+.nav_bar a:hover {
+  border-bottom: 4px solid #f54e77;
+  z-index: 2;
+}
+
+.nav_bar a sup {
+  color: #ff3f6c;
+  font-size: 10px;
+}
+
+/* ************** CSS for Search Bar **************/
+
+.search_bar {
+  height: 40px;
+  min-width: 200px;
+  width: 30%;
+  display: flex;
+  align-items: center;
+}
+
+.search_icon {
+  box-sizing: content-box;
+  height: 29px;
+  padding: 6px 10px 6px 10px;
+
+  background-color: #f5f5f6;
+  color: #282c3f;
+  font-weight: 300;
+  border-radius: 4px 0 0 4px;
+}
+
+.search_input {
+  color: #696e79;
+  background-color: #f5f5f6;
+  flex-grow: 1;
+  height: 40px;
+  border: 0;
+  border-radius: 0 4px 4px 0;
+}
+
+/* ************** CSS for Action Bar **************/
+
+.action_bar {
+  display: flex;
+  min-width: 200px;
+  justify-content: space-evenly;
+}
+
+.action_container {
+  color: #282c3f;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.action_icon {
+  margin: 4px 0 0;
+  background: url("../../images/icons.png");
+  background-size: 1404px 105px;
+}
+
+.profile_icon {
+  width: 24px;
+  height: 24px;
+  background-position: -298px -56px;
+}
+
+.wishlist_icon {
+  width: 17px;
+  height: 22px;
+  background-position: -315px -187px;
+}
+
+/* ************** CSS for Bag **************/
+
+.bag_icon_container {
+  display: flex;
+  text-decoration: none;
+  position: relative;
+}
+
+.bag_icon {
+  width: 22px;
+  height: 22px;
+  background-position: -341px -56px;
+
+  display: inline-block;
+}
+
+.bag_item_count {
+  text-align: center;
+  padding: 0 6px;
+  height: 18px;
+  position: absolute;
+  border-radius: 50%;
+  font-size: 12px;
+  color: #fff;
+  left: 13px;
+  top: -2px;
+  font-weight: 700;
+  background-color: #f16565;
+}
